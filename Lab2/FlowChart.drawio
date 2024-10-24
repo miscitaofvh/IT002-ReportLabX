@@ -1,0 +1,84 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="2">
+  <diagram name="Page-1" id="GCaUakwSrjFj-eS3XP7z">
+    <mxGraphModel dx="1050" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9DdMLbvaCxfj4Xr1egwA-1" target="9DdMLbvaCxfj4Xr1egwA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9DdMLbvaCxfj4Xr1egwA-4" target="9DdMLbvaCxfj4Xr1egwA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-4" value="Nhập số lượng phân số." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9DdMLbvaCxfj4Xr1egwA-6" target="9DdMLbvaCxfj4Xr1egwA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-6" value="Nhập giá trị của các&lt;div&gt;phân số&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9DdMLbvaCxfj4Xr1egwA-8" target="9DdMLbvaCxfj4Xr1egwA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-8" value="So sánh các phân số&lt;div&gt;để tìm phân số lớn nhất&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9DdMLbvaCxfj4Xr1egwA-10" target="9DdMLbvaCxfj4Xr1egwA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-10" value="So sánh các phân số để tìm phân số nhỏ nhất" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9DdMLbvaCxfj4Xr1egwA-14" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LM5RBNy7PDI1_SJnuXv0" name="Page-2">
+    <mxGraphModel dx="1050" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKdZW8fNG0JLf1-RH4oB-1" target="EKdZW8fNG0JLf1-RH4oB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-1" value="Bắt Đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKdZW8fNG0JLf1-RH4oB-2" target="EKdZW8fNG0JLf1-RH4oB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-2" value="Nhập n, k&lt;div&gt;và các phân số&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EKdZW8fNG0JLf1-RH4oB-4" target="EKdZW8fNG0JLf1-RH4oB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-4" value="Định nghĩa các dấu&lt;div&gt;&amp;lt;&amp;lt;, &amp;gt;&amp;gt;, &amp;gt;, &amp;lt; cho phân số&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKdZW8fNG0JLf1-RH4oB-6" target="EKdZW8fNG0JLf1-RH4oB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-6" value="Sắp xếp, sau đó đảo ngược danh sách&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;các phân số&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="390" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKdZW8fNG0JLf1-RH4oB-9" target="EKdZW8fNG0JLf1-RH4oB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-9" value="In ra số lớn thứ k là a[k - 1]&lt;div&gt;In ra số bé thứ k là a[n - k]&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKdZW8fNG0JLf1-RH4oB-11" value="Kết Thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
