@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="T57yJgtLd-PgPbL6ISV8-1" value="Diem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="300" width="160" height="230" as="geometry">
+          <mxGeometry x="210" y="240" width="160" height="230" as="geometry">
             <mxRectangle x="340" y="300" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -17,6 +17,24 @@
         </mxCell>
         <mxCell id="T57yJgtLd-PgPbL6ISV8-4" value="+ Diem()&lt;div&gt;+ Diem(int, int)&lt;/div&gt;&lt;div&gt;+ Diem(const Diem &amp;amp;)&lt;/div&gt;&lt;div&gt;+ Xuat(): void&lt;/div&gt;&lt;div&gt;+ GetTungDo(): float&lt;/div&gt;&lt;div&gt;+ GetHoanhDo(): float&lt;/div&gt;&lt;div&gt;+ SetTungDo(): void&lt;/div&gt;&lt;div&gt;+ SetHoanhDo(): void&lt;/div&gt;&lt;div&gt;+ TinhTien(float, float): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="T57yJgtLd-PgPbL6ISV8-1">
           <mxGeometry y="80" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="T57yJgtLd-PgPbL6ISV8-5" value="TamGiac" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="210" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="T57yJgtLd-PgPbL6ISV8-6" value="+ A: Diem&lt;div&gt;+ B: Diem&lt;/div&gt;&lt;div&gt;+ C: Diem&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="T57yJgtLd-PgPbL6ISV8-5">
+          <mxGeometry y="26" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="T57yJgtLd-PgPbL6ISV8-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="T57yJgtLd-PgPbL6ISV8-5">
+          <mxGeometry y="80" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="T57yJgtLd-PgPbL6ISV8-8" value="+ TamGiac(Diem A, Diem B, Diem C)&lt;div&gt;+ TamGiac(const TamGiac &amp;amp;)&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ Xuat(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ Nhap(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ TinhTien(float x, float y): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ Quay(float goc): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ PhongTo(float k): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ ThuNho(float k): void&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="T57yJgtLd-PgPbL6ISV8-5">
+          <mxGeometry y="88" width="210" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="T57yJgtLd-PgPbL6ISV8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.304;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T57yJgtLd-PgPbL6ISV8-2" target="T57yJgtLd-PgPbL6ISV8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T57yJgtLd-PgPbL6ISV8-17" value="Friend Class" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
