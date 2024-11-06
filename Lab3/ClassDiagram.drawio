@@ -1,0 +1,42 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="2">
+  <diagram name="Page-1" id="50w--bzSva7GFZzia3uF">
+    <mxGraphModel dx="1050" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ghOrNYuX4lmdEuHvktV--1" value="PhanSo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;textShadow=0;labelBorderColor=none;" parent="1" vertex="1">
+          <mxGeometry x="260" y="200" width="340" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ghOrNYuX4lmdEuHvktV--2" value="+ iTu: int&lt;div&gt;+ iMau: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ghOrNYuX4lmdEuHvktV--1" vertex="1">
+          <mxGeometry y="26" width="340" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ghOrNYuX4lmdEuHvktV--3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ghOrNYuX4lmdEuHvktV--1" vertex="1">
+          <mxGeometry y="60" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ghOrNYuX4lmdEuHvktV--4" value="+ PhanSo()&lt;div style=&quot;font-size: 12px;&quot;&gt;+ PhanSo(int)&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ PhanSo(int, int)&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ friend operator + (const PhanSo, const PhanSo): PhanSo&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ friend operator - (const PhanSo, const PhanSo): PhanSo&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ friend operator * (const PhanSo, const PhanSo): PhanSo&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ friend operator / (const PhanSo, const PhanSo): PhanSo&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ operator != (const PhanSo&amp;amp;): bool&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ operator == (const PhanSo&amp;amp;): bool&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ operator &amp;gt;= (const PhanSo&amp;amp;): bool&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ operator &amp;lt;= (const PhanSo&amp;amp;): bool&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ operator &amp;gt; (const PhanSo&amp;amp;): bool&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ operator &amp;lt; (const PhanSo&amp;amp;): bool&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ friend operator &amp;gt;&amp;gt; (std::istream&amp;amp;, PhanSo&amp;amp;)&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ friend operator &amp;lt;&amp;lt; (std::ostream&amp;amp;, const PhanSo&amp;amp;)&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;+ rutgon(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;fontStyle=0;fontSize=12;" parent="ghOrNYuX4lmdEuHvktV--1" vertex="1">
+          <mxGeometry y="68" width="340" height="252" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wYH0tOnndmZ9sPz-4MBF" name="Page-2">
+    <mxGraphModel dx="1050" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gG8k6529HZaNcLuGgfAI-1" value="SoPhuc" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="370" height="418" as="geometry" />
+        </mxCell>
+        <mxCell id="gG8k6529HZaNcLuGgfAI-2" value="+ dThuc: int&lt;div&gt;+ dAo: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gG8k6529HZaNcLuGgfAI-1">
+          <mxGeometry y="26" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="gG8k6529HZaNcLuGgfAI-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gG8k6529HZaNcLuGgfAI-1">
+          <mxGeometry y="60" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gG8k6529HZaNcLuGgfAI-4" value="+ SoPhuc()&lt;div&gt;+ SoPhuc(int, int)&lt;/div&gt;&lt;div&gt;+ getThuc(): int&lt;/div&gt;&lt;div&gt;+ setThuc(int): void&lt;/div&gt;&lt;div&gt;+ getAo(): int&lt;/div&gt;&lt;div&gt;+ setAo(int): void&lt;/div&gt;&lt;div&gt;+ operator+(const SoPhuc): SoPhuc&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ operator-(const SoPhuc): SoPhuc&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ operator*(const SoPhuc): SoPhuc&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ operator/(const SoPhuc): SoPhuc&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ operator==(const SoPhuc): bool&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ operator!=(const SoPhuc): bool&lt;/div&gt;&lt;div&gt;+&amp;nbsp;operator&amp;lt;&amp;lt; (std::ostream&amp;amp;, const SoPhuc&amp;amp;) : std::ostream&amp;amp;&lt;/div&gt;&lt;div&gt;+ operator&amp;gt;&amp;gt; (std::istream&amp;amp;, SoPhuc&amp;amp;) : std::istream&amp;amp;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ operator+(int, const SoPhuc&amp;amp;) : SoPhuc&lt;/div&gt;&lt;div&gt;+ operator+(const SoPhuc&amp;amp;, int) : SoPhuc&lt;/div&gt;&lt;div&gt;+ operator-(int, const SoPhuc&amp;amp;) : SoPhuc&lt;/div&gt;&lt;div&gt;+ operator-(const SoPhuc&amp;amp;, int) : SoPhuc&lt;/div&gt;&lt;div&gt;+ operator*(int, const SoPhuc&amp;amp;) : SoPhuc&lt;/div&gt;&lt;div&gt;+ operator*(const SoPhuc&amp;amp;, int) : SoPhuc&lt;/div&gt;&lt;div&gt;+ operator/(int, const SoPhuc&amp;amp;) : SoPhuc&lt;br&gt;        + operator/(const SoPhuc&amp;amp;, int) : SoPhuc&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gG8k6529HZaNcLuGgfAI-1">
+          <mxGeometry y="68" width="370" height="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
