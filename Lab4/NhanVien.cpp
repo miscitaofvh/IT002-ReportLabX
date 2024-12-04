@@ -34,15 +34,15 @@ public:
         : NhanVien(ms, t, lcb), tyLeThuong(tlt) {}
 
     double TienThuong() const override {
-        return luongCoBan * tyLeThuong;
+        return static_cast<int>(luongCoBan * tyLeThuong);
     }
 
     void Xuat() const override {
         NhanVien::Xuat();
         cout << "Ty le thuong: " << tyLeThuong << "\n"
-             << "Tien thuong: " << TienThuong() << "\n";
+             << "Tien thuong: " << static_cast<int>(TienThuong()) << "\n";
     }
-};
+};;
 
 // Lớp Kỹ sư
 class KySu : public NhanVien {
@@ -60,7 +60,7 @@ public:
     void Xuat() const override {
         NhanVien::Xuat();
         cout << "So gio lam them: " << soGioLamThem << "\n"
-             << "Tien thuong: " << TienThuong() << "\n";
+             << "Tien thuong: " << static_cast<int>(TienThuong()) << "\n";
     }
 };
 
