@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="oxs_TRgxn1VdIWFtBb3Z">
+    <mxGraphModel dx="1290" dy="669" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qo901SWD13mdMvyf_vV0-1" value="NhanVien" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="58" width="211" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-2" value="+ maSo: string&lt;div&gt;+ ten: string&lt;/div&gt;&lt;div&gt;+ luongcoban: double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qo901SWD13mdMvyf_vV0-1">
+          <mxGeometry y="26" width="211" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qo901SWD13mdMvyf_vV0-1">
+          <mxGeometry y="77" width="211" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-4" value="+ NhanVien(string, string,double)&lt;div&gt;+ tienThuong() : double&lt;/div&gt;&lt;div&gt;+ Xuat() : void&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qo901SWD13mdMvyf_vV0-1">
+          <mxGeometry y="85" width="211" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qo901SWD13mdMvyf_vV0-5" target="qo901SWD13mdMvyf_vV0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-5" value="QuanLy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="346" width="226" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-6" value="+ tyLeThuong: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qo901SWD13mdMvyf_vV0-5">
+          <mxGeometry y="26" width="226" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qo901SWD13mdMvyf_vV0-5">
+          <mxGeometry y="52" width="226" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-8" value="+ QuanLy(string, string, double, double)&lt;div&gt;+ TienThuong() : double&lt;/div&gt;&lt;div&gt;+ Xuat() : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qo901SWD13mdMvyf_vV0-5">
+          <mxGeometry y="60" width="226" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qo901SWD13mdMvyf_vV0-11" target="qo901SWD13mdMvyf_vV0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-11" value="KySu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="449" y="346" width="210" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-12" value="+ soGioLamThem: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qo901SWD13mdMvyf_vV0-11">
+          <mxGeometry y="26" width="210" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qo901SWD13mdMvyf_vV0-11">
+          <mxGeometry y="51" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qo901SWD13mdMvyf_vV0-14" value="+ KySu(string, string, double, int)&lt;div&gt;+ TienThuong() : double&lt;/div&gt;&lt;div&gt;+ Xuat() : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qo901SWD13mdMvyf_vV0-11">
+          <mxGeometry y="59" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
